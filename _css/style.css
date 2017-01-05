@@ -1,6 +1,7 @@
 body
 {
   margin: 0;
+  font-family: fantasy;
 }
 
 .container
@@ -28,7 +29,7 @@ body
 /*nav-menuigation*/
 .navbar
 {
-  background-color: whitesmoke;
+  background-color: #404040;
   height: 50px;
   overflow: hidden;
 }
