@@ -82,7 +82,7 @@ body
 
 .nav ul li a:hover
 {
-  color: black;
+  color: white;
 }
 
 .nav ul-logo
@@ -110,4 +110,12 @@ body
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url("http://placehold.it/1200x300");
+}
+.vid1{
+  width: 560px;
+  height: 315px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
