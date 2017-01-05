@@ -1,0 +1,112 @@
+body
+{
+  margin: 0;
+}
+
+.container
+{
+  width: 100%;
+  overflow:auto;
+}
+
+.horz-center
+{
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.left
+{
+  float: left;
+}
+
+.right
+{
+  float: right;
+}
+
+/*nav-menuigation*/
+.navbar
+{
+  background-color: whitesmoke;
+  height: 50px;
+  overflow: hidden;
+}
+
+.nav
+{
+  margin: 0;
+}
+
+.nav h1
+{
+  margin:5px 0;
+  float:left;
+  font-size: 2em;
+}
+
+.nav ul
+{
+  display: inline-block;
+}
+
+.nav ul li
+{
+  display: inline;
+  padding: 0 10px;
+}
+
+.nav ul li:not(:last-child)
+{
+  border-right: 1px solid darkgray;
+}
+
+.logo{
+  height: 50px;
+  width: 50px;
+  margin-left: 15px;
+  content:url(http://thecraftchop.bravesites.com/files/others/Pokeball.svg);
+}
+
+.header{
+  margin-right: 25px;
+}
+
+.nav ul li a
+{
+  font-size: 1.1em;
+  text-decoration: none;
+  color: darkgray;
+}
+
+.nav ul li a:hover
+{
+  color: black;
+}
+
+.nav ul-logo
+{
+  top: 50%;
+}
+/*End of nav-menuigation*/
+.content-border
+{
+  /*border-image: url("../_images/content-border.png") 0% 100% repeat;*/
+  border-color: whitesmoke;
+  border-style: solid;
+  border-width: 16px;
+  border-top: none;
+}
+.content
+{
+  padding: 20px;
+  box-sizing: border-box;
+}
+.hero
+{
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("http://placehold.it/1200x300");
+}
