@@ -25,5 +25,6 @@ function myColor() {
   var r5 = randomHex(15,0);
   var r6 = randomHex(15,0);
   document.getElementById("changeMe").style.color = "#" + r1 + r2 + r3 + r4 + r5 + r6;
+  
 }
 };
