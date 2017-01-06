@@ -119,3 +119,38 @@ body
   flex-wrap: wrap;
   align-content: center;
 }
+.footer{
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+  /*align-items: center;*/
+  text-align: center;
+}
+.column1{
+  height: 70px;
+  width: 100px;
+  color: orange;
+  margin: 20px;
+  background-color: blue;
+  /*overflow: hidden;*/
+  display: inline;
+}
+.column2{
+  height: 70px;
+  width: 100px;
+  color: orange;
+  margin: 20px;
+  background-color: blue;
+  /*overflow: hidden;*/
+  display: inline;
+}
+.column3{
+  height: 70px;
+  width: 100px;
+  color: orange;
+  margin: 20px;
+  background-color: blue;
+  /*overflow: hidden;*/
+  display: inline;
+}
