@@ -123,17 +123,35 @@ body
   height: 100px;
   width: 100%;
   background-color: black;
-  overflow: hidden;
+  /*overflow: hidden;*/
   /*align-items: center;*/
+  /*text-align: center;*/
+}
+
+.column
+{
+  color: orange;
+  float: left;
+  width: 33.33%;
+  height: 100%;
   text-align: center;
 }
-.column1{
+
+.column input
+{
+  background: none;
+  border: none;
+  background-color: black;
+  color: gray;
+}
+
+/*.column1{
   height: 70px;
   width: 100px;
   color: orange;
   margin: 20px;
   background-color: blue;
-  /*overflow: hidden;*/
+  overflow: hidden;
   display: inline;
 }
 .column2{
@@ -142,7 +160,7 @@ body
   color: orange;
   margin: 20px;
   background-color: blue;
-  /*overflow: hidden;*/
+  overflow: hidden;
   display: inline;
 }
 .column3{
@@ -151,6 +169,6 @@ body
   color: orange;
   margin: 20px;
   background-color: blue;
-  /*overflow: hidden;*/
+  overflow: hidden;
   display: inline;
-}
+}*/

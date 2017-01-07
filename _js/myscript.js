@@ -23,3 +23,23 @@ function myColor() {
   var r6 = randomHex(15,0);
   document.getElementById("changeMe").style.color = "#" + r1 + r2 + r3 + r4 + r5 + r6;
 }
+
+var isPlaying = false;
+
+function playMusic()
+{
+  var audio = document.getElementById("secret");
+
+  if(isPlaying == false)
+  {
+    isPlaying = true;
+    audio.play();
+  }
+  else
+  {
+    isPlaying = false;
+    audio.pause();
+    audio.currentTime = 0;
+  }
+
+}
