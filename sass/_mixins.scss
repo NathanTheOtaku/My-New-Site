@@ -1,0 +1,4 @@
+@mixin doubleSize($size)
+{
+  width: $size * 2;
+}

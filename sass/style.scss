@@ -1,4 +1,10 @@
+@import mixins;
+
 $main-color: #FFBBCC;
+
+@include doubleSize(400);
+
+
 
 body
 {
