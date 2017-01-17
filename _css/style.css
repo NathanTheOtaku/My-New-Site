@@ -96,11 +96,13 @@ body {
   /*text-align: center;*/ }
 
 .column {
-  color: orange;
+  color: whitesmoke;
   float: left;
-  width: 33.33%;
+  width: 30%;
   height: 100%;
-  text-align: center; }
+  text-align: left;
+  margin-right: 20px;
+  overflow: hidden; }
 
 .column input {
   background: none;
