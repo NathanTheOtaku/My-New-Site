@@ -1,7 +1,6 @@
 {
   "name": "nathans-project",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.1",
@@ -21,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/NathanTheOtaku/My-New-Site/issues"
   },
-  "homepage": "https://github.com/NathanTheOtaku/My-New-Site#readme"
+  "homepage": "https://github.com/NathanTheOtaku/My-New-Site#readme",
+  "description": ""
 }
